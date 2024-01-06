@@ -1,10 +1,7 @@
-const age = 19;
- if( age >=80){
-    console.log( " yes , you can vote");
- }
- else if( age >= 18){
-     console.log(" yes , you can !!");
- } 
- else{
-    console.log("no , yoc can't vote");
- }
+const age = 60;
+const gender = 'male'
+  let result = age >= 18 ? 'yes' : 'no';
+   console.log(result)
+   if(age >= 18 && gender =='male'){
+     console.log(" hi Adult");
+   }
